@@ -30,7 +30,7 @@ jobs:
       - name: Setup Cog
         uses: replicate/setup-cog@v2
         with:
-          install-cuda: true
+          install-cuda: false
         
 
       - name: Push to Replicate
